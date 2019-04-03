@@ -1,0 +1,11 @@
+https://www.apollographql.com/docs/tutorial/data-source
+https://github.com/apollographql/fullstack-tutorial/blob/master/final/
+
+REST data source URL - 'https://api.spacexdata.com/v2/';
+Endpoints: https://api.spacexdata.com/v2/launches
+
+https://api.spacexdata.com/v2/launches/:id
+
+
+SQLite for our SQL database
+Sequelize ORM
