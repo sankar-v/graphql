@@ -1,4 +1,6 @@
 const { ApolloServer } = require("apollo-server");
+const isEmail = require('isemail');
+
 const typeDefs = require("./schema");
 
 const { createStore } = require("./utils");
@@ -23,7 +25,6 @@ const context = async ({ req }) => {
     return { user: { ...user.dataValues } };
 };
   
-
 const server = new ApolloServer({
   typeDefs,
   resolvers,
