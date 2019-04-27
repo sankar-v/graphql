@@ -3,13 +3,13 @@
 <p>We did not use the create-react-scripts to set up the ReactJS application. The idea was to see what it takes to set up a create-react-app like application without using the create-react-app. <p>
 <p>The src folder was set up similar to the create-react-app structure.<p>
 
-`client
-  |
-  |--src
-  |
-  |--package.json 
-  |
-  |--node-modules`
+	`client
+  	|
+  	|--src
+  	|
+  	|--package.json 
+  	|
+  	|--node-modules`
 
 <p>Next step was to set up a package.json file in the root (same level as source).  To experiment, an existing package.json was used. 
 npm install was all took to install the dependencies and the devDependencies.<p>
@@ -22,17 +22,17 @@ npm install was all took to install the dependencies and the devDependencies.<p>
 
 <p>So set up the public folder with index.html (with root defined for react DOM to mount) inside it as under:<p>
 
-`client
-  |
-  |--src
-  |
-  |--package.json 
-  |
-  |--node-modules
-  |
-  |--public
-	|
-	|--index.html`
+	`client
+  	|
+  	|--src
+  	|
+  	|--package.json 
+  	|
+  	|--node-modules
+  	|
+  	|--public
+		|
+		|--index.html`
 
 <p>That is it!! The page loaded.<p>
 
